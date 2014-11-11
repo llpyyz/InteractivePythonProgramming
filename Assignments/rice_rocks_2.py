@@ -1,8 +1,9 @@
 """
 Interactive Python Programming
 Week 8: Part II of RiceRocks
-http://www.codeskulptor.org/#user38_NpyZ8ICOY85pjSd.py
+http://www.codeskulptor.org/#user38_ncEkgNgoBULS6fC.py
 """
+
 
 import simplegui
 import math
@@ -162,7 +163,6 @@ def missile_remove():
 
 def soundtrack_restart():
     global started, soundtrack
-    print "soundtarck restart called"
     if started:
         soundtrack.rewind()
         soundtrack.play()
